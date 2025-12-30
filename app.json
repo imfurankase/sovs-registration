@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SOVS Registration",
+    "slug": "sovs-registration",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.sovs.registration"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sovs.registration"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "sovs",
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://api.sovsapp.tech"
+        }
+      ]
+    ]
+  }
+}
